@@ -17,27 +17,24 @@
             padding: 20px;
             text-align: center;
         }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        main {
             padding: 20px;
         }
-        .gallery img {
-            width: 300px;
-            height: auto;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        h2 {
+            color: #333;
+        }
+        .services, .testimonials {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         footer {
             text-align: center;
             padding: 20px;
             background: #007bff;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -49,22 +46,34 @@
 </header>
 
 <main>
-    <section class="gallery">
-        <img src="image1.jpg" alt="Pest Control 1">
-        <img src="image2.jpg" alt="Pest Control 2">
-        <img src="image3.jpg" alt="Pest Control 3">
-        <img src="image4.jpg" alt="Pest Control 4">
-        <img src="image5.jpg" alt="Pest Control 5">
-        <img src="image6.jpg" alt="Pest Control 6">
-        <img src="image7.jpg" alt="Pest Control 7">
-        <img src="image8.jpg" alt="Pest Control 8">
-        <img src="image9.jpg" alt="Pest Control 9">
-        <img src="image10.jpg" alt="Pest Control 10">
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Residential Pest Control</li>
+            <li>Commercial Pest Management</li>
+            <li>Termite Inspection and Treatment</li>
+            <li>Rodent Control</li>
+            <li>Bed Bug Extermination</li>
+            <li>Eco-Friendly Pest Solutions</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <blockquote>
+            "Leo Pest Service was prompt and professional! Highly recommend." - Sarah T.
+        </blockquote>
+        <blockquote>
+            "Their team handled our rodent issue quickly and effectively." - Mike L.
+        </blockquote>
+        <blockquote>
+            "Great service, friendly staff, and very knowledgeable!" - Lisa R.
+        </blockquote>
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2024 Leo Pest Service California | Contact us: (123) 456-7890</p>
+    <p>&copy; 2024 Leo Pest Service California | Contact us: (123) 456-7890 | info@leopestservice.com</p>
 </footer>
 
 </body>
